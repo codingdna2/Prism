@@ -114,8 +114,7 @@ namespace Prism.Regions.Behaviors
                         this.attachedRegionManagerWeakReference = null;
                         attachedRegionManager.Regions.Remove(this.Region.Name);
                     }
-
-                    if (regionManager != null)
+                    else if (regionManager != null)
                     {
                         this.attachedRegionManagerWeakReference = new WeakReference(regionManager);
                         regionManager.Regions.Add(this.Region);
