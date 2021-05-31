@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.RegionManagerRegistrationBehaviorIssue", "Prism.RegionManagerRegistrationBehaviorIssue.csproj", "{96E311C4-97C0-41EF-A344-EF50124F6FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E311C4-97C0-41EF-A344-EF50124F6FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E311C4-97C0-41EF-A344-EF50124F6FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E311C4-97C0-41EF-A344-EF50124F6FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E311C4-97C0-41EF-A344-EF50124F6FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {987A8BA9-CB23-4B6A-9F85-7450E3A7ACF3}
+	EndGlobalSection
+EndGlobal

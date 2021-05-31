@@ -37,6 +37,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Prism.DryIoc.Shared", "src\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Prism.Unity.Shared", "src\Containers\Prism.Unity.Shared\Prism.Unity.Shared.shproj", "{D66336A6-07E5-401A-A710-DAEDD6975D59}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.RegionManagerRegistrationBehaviorIssue", "tests\Wpf\PrismIssue2471\Prism.RegionManagerRegistrationBehaviorIssue.csproj", "{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Containers\Prism.Unity.Shared\Prism.Unity.Shared.projitems*{2f184285-b860-4c68-aaf7-73af6b2f98d8}*SharedItemsImports = 5
@@ -164,6 +166,18 @@ Global
 		{4039BC28-15D4-4EE1-82D8-80BD4CC61C50}.Release|x64.Build.0 = Release|Any CPU
 		{4039BC28-15D4-4EE1-82D8-80BD4CC61C50}.Release|x86.ActiveCfg = Release|Any CPU
 		{4039BC28-15D4-4EE1-82D8-80BD4CC61C50}.Release|x86.Build.0 = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|x64.Build.0 = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Debug|x86.Build.0 = Debug|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|x64.ActiveCfg = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|x64.Build.0 = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|x86.ActiveCfg = Release|Any CPU
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +198,7 @@ Global
 		{3CD6B945-4E76-4DC7-A68A-972C36ADA718} = {0DF20AD9-0A3F-4B61-BC8A-2D6DED59A7D2}
 		{6E7EC81D-DA39-4C4F-A898-0148558C34F4} = {3CD6B945-4E76-4DC7-A68A-972C36ADA718}
 		{D66336A6-07E5-401A-A710-DAEDD6975D59} = {3CD6B945-4E76-4DC7-A68A-972C36ADA718}
+		{EFA8EFEF-A51B-41EA-9C5D-0F6B740FE759} = {414633C4-2FB9-4A81-8071-832C33C027BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {544BBD3D-C3AA-405A-9832-122679F8AD05}
